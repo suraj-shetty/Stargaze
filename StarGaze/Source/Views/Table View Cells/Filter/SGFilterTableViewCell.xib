@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GT-Walsheim-Pro-Medium.ttf">
+            <string>GTWalsheimPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="SGFilterTableViewCell" customModule="StarGaze" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmF-LK-FF8">
+                        <rect key="frame" x="20" y="22.5" width="36.5" height="15"/>
+                        <fontDescription key="fontDescription" name="GTWalsheimPro-Medium" family="GT Walsheim Pro" pointSize="15"/>
+                        <color key="textColor" name="Text1"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbO-Ch-cn8" customClass="PWSwitch" customModule="StarGaze" customModuleProvider="target">
+                        <rect key="frame" x="272" y="22" width="28" height="16"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="2oo-NU-NlJ"/>
+                            <constraint firstAttribute="width" constant="28" id="60k-dA-lSt"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackOffBorderColor">
+                                <color key="value" name="Swich Off Background"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackOffFillColor">
+                                <color key="value" name="Swich Off Background"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackOffPushBorderColor">
+                                <color key="value" name="Swich Off Background"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thumbOffBorderColor">
+                                <color key="value" name="Text1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thumbOffPushBorderColor">
+                                <color key="value" name="Text1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thumbOffFillColor">
+                                <color key="value" name="Text1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackOnFillColor">
+                                <color key="value" name="Brand2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackOnBorderColor">
+                                <color key="value" name="Brand2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thumbOnBorderColor">
+                                <color key="value" name="Text1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thumbOnFillColor">
+                                <color key="value" name="Text1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="thumbDiameter">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="thumbCornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldFillOnPush" value="YES"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="thumbShadowColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowStrength">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="thumbDelta">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09z-EJ-6rk">
+                        <rect key="frame" x="20" y="59" width="280" height="1"/>
+                        <color key="backgroundColor" name="Table Separator"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Y3M-gp-ovF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="Brand1"/>
+                <constraints>
+                    <constraint firstItem="pbO-Ch-cn8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FKW-b2-qXY"/>
+                    <constraint firstAttribute="trailing" secondItem="09z-EJ-6rk" secondAttribute="trailing" constant="20" id="Jq1-Ja-ckR"/>
+                    <constraint firstItem="fmF-LK-FF8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PxA-Nh-W7L"/>
+                    <constraint firstAttribute="bottom" secondItem="09z-EJ-6rk" secondAttribute="bottom" id="So5-Ld-WNK"/>
+                    <constraint firstAttribute="trailing" secondItem="pbO-Ch-cn8" secondAttribute="trailing" constant="20" id="YWs-Hy-SWp"/>
+                    <constraint firstItem="09z-EJ-6rk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cs7-j8-nd5"/>
+                    <constraint firstItem="fmF-LK-FF8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="njG-oK-P1L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="switchView" destination="pbO-Ch-cn8" id="saE-5g-7Y4"/>
+                <outlet property="titleLabel" destination="fmF-LK-FF8" id="lpY-nN-Gml"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="131.91964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Brand1">
+            <color red="0.078431372549019607" green="0.10196078431372549" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Brand2">
+            <color red="0.99215686274509807" green="0.78431372549019607" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Swich Off Background">
+            <color red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Table Separator">
+            <color red="1" green="1" blue="1" alpha="0.059999998658895493" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

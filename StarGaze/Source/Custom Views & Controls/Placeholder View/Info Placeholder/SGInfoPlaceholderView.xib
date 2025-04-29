@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GT-Walsheim-Pro-Medium.ttf">
+            <string>GTWalsheimPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SGInfoPlaceholderView" customModule="StarGaze" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="itj-sS-ccR" userLabel="Content View">
+                    <rect key="frame" x="57" y="291" width="300.5" height="314"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noFeed" translatesAutoresizingMaskIntoConstraints="NO" id="H81-ui-fcr">
+                            <rect key="frame" x="65.5" y="0.0" width="169" height="220"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Feeds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHQ-87-jm6">
+                            <rect key="frame" x="20" y="250" width="260.5" height="22"/>
+                            <fontDescription key="fontDescription" name="GTWalsheimPro-Medium" family="GT Walsheim Pro" pointSize="22"/>
+                            <color key="textColor" name="Text1"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ard-Jj-OjO" customClass="SGSpacedLabel" customModule="StarGaze" customModuleProvider="target">
+                            <rect key="frame" x="20" y="282" width="260.5" height="32"/>
+                            <string key="text">Lorem ipsum dolor sit amet, consect
+etuer adipiscing elit.</string>
+                            <fontDescription key="fontDescription" name="GTWalsheimPro-Medium" family="GT Walsheim Pro" pointSize="16"/>
+                            <color key="textColor" name="Text1"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                    <real key="value" value="22"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="changeLineHeight" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="lHQ-87-jm6" firstAttribute="leading" secondItem="itj-sS-ccR" secondAttribute="leading" constant="20" id="Gwk-fM-khl"/>
+                        <constraint firstItem="H81-ui-fcr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="itj-sS-ccR" secondAttribute="leading" id="I9P-pV-Izc"/>
+                        <constraint firstItem="ard-Jj-OjO" firstAttribute="leading" secondItem="itj-sS-ccR" secondAttribute="leading" constant="20" id="SbB-z5-MaZ"/>
+                        <constraint firstItem="lHQ-87-jm6" firstAttribute="top" secondItem="H81-ui-fcr" secondAttribute="bottom" constant="30" id="YkS-n7-8bf"/>
+                        <constraint firstAttribute="bottom" secondItem="ard-Jj-OjO" secondAttribute="bottom" id="cbv-NO-cg7"/>
+                        <constraint firstAttribute="trailing" secondItem="lHQ-87-jm6" secondAttribute="trailing" constant="20" id="fpO-o1-88E"/>
+                        <constraint firstAttribute="trailing" secondItem="ard-Jj-OjO" secondAttribute="trailing" constant="20" id="hrW-SS-TSo"/>
+                        <constraint firstItem="ard-Jj-OjO" firstAttribute="top" secondItem="lHQ-87-jm6" secondAttribute="bottom" constant="10" id="n7U-m0-XmV"/>
+                        <constraint firstItem="H81-ui-fcr" firstAttribute="top" secondItem="itj-sS-ccR" secondAttribute="top" id="oXW-YO-YqM"/>
+                        <constraint firstItem="H81-ui-fcr" firstAttribute="centerX" secondItem="itj-sS-ccR" secondAttribute="centerX" id="sgc-Pc-4qd"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="H81-ui-fcr" secondAttribute="trailing" id="vHo-F4-QOi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="itj-sS-ccR" firstAttribute="width" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="width" constant="-20" id="28K-ii-spD"/>
+                <constraint firstItem="itj-sS-ccR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XXU-Qo-T8u"/>
+                <constraint firstItem="itj-sS-ccR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="anW-E0-HMQ"/>
+                <constraint firstItem="itj-sS-ccR" firstAttribute="height" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="height" constant="-20" id="wvW-uJ-Ksc"/>
+            </constraints>
+            <connections>
+                <outlet property="descriptionLabel" destination="ard-Jj-OjO" id="lug-te-uyX"/>
+                <outlet property="iconView" destination="H81-ui-fcr" id="o7g-RD-2Hk"/>
+                <outlet property="titleLabel" destination="lHQ-87-jm6" id="XlK-Th-Ck0"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="120.53571428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="noFeed" width="169" height="220"/>
+        <namedColor name="Text1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

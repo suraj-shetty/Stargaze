@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GT-Walsheim-Pro-Medium.ttf">
+            <string>GTWalsheimPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wQR-EK-Woe" customClass="SGFeedListFooterView" customModule="StarGaze" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fetching…" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Gw-ay-stx">
+                    <rect key="frame" x="20" y="441" width="374" height="14"/>
+                    <fontDescription key="fontDescription" name="GTWalsheimPro-Medium" family="GT Walsheim Pro" pointSize="14"/>
+                    <color key="textColor" name="Text1"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="npX-IH-1bN"/>
+            <constraints>
+                <constraint firstItem="0Gw-ay-stx" firstAttribute="centerY" secondItem="wQR-EK-Woe" secondAttribute="centerY" id="ggd-Nh-51L"/>
+                <constraint firstItem="0Gw-ay-stx" firstAttribute="leading" secondItem="npX-IH-1bN" secondAttribute="leading" constant="20" id="sBt-hJ-l2R"/>
+                <constraint firstItem="npX-IH-1bN" firstAttribute="trailing" secondItem="0Gw-ay-stx" secondAttribute="trailing" constant="20" id="zhC-k7-IbW"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="0Gw-ay-stx" id="CNJ-1j-GFb"/>
+            </connections>
+            <point key="canvasLocation" x="118" y="143"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Text1">
+            <color red="0.078431372549019607" green="0.10196078431372549" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

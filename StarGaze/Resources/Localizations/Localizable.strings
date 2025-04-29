@@ -1,0 +1,408 @@
+/* 
+  Localizable.strings
+  StarGaze
+
+  Created by Suraj Shetty on 12/04/22.
+  Copyright © 2022 Day1Tech. All rights reserved.
+*/
+
+//MARK:- App Intro
+"INTRO_1_TITLE" = "Follow your";
+"INTRO_1_SUB"   = "favourite stars";
+
+"INTRO_2_TITLE" = "Exclusive content for";
+"INTRO_2_SUB"   = "premium fans";
+
+"INTRO_3_TITLE" = "Fans get what they";
+"INTRO_3_SUB"   = "really want";
+
+"INTRO_CTA"     = "GET STARTED";
+"INTRO_SKIP"    = "SKIP";
+
+//MARK: - Onboard
+"onboard.phone-input.terms" = "By Signing up, you agree to the Terms & Conditions & Privacy Policy. You will receive an OTP to verify your phone number. Message & Data rates may apply.";
+"onboard.highlight.terms"   = "Terms & Conditions";
+"onboard.highlight.policy"  = "Privacy Policy";
+
+//MARK: - Tab Bar
+"TAB_TITLE_FEEDS"   = "Feeds";
+"TAB_TITLE_MEDIA"   = "Media";
+"TAB_TITLE_STARS"   = "Stars";
+"TAB_TITLE_EVENTS"  = "Events";
+"TAB_TITLE_MENU"    = "Menu";
+
+//Placeholders
+"NO_FEED_TITLE"     = "No Feeds…";
+"NO_FEED_DESC"      = " ";
+"video.loading.placeholder" = "LOADING…";
+"image.loading.placeholder" = "LOADING…";
+
+//MARK:- Field Placeholder
+"field.placeholder" = "Type Something…";
+"field.2.placeholder" = "Type here";
+
+//MARK: - Feed
+"feeds.title"                       = "Feeds";
+"feed.home.create.title"            = "What’s on your mind?";
+"feed.list.picker.generic"          = "Generic Feeds";
+"feed.list.picker.exclusive"        = "Exclusive";
+"feed.list.description.read-more"   = "See More";
+"feed.list.description.read-less"   = "See Less";
+"feed.list.new-post.title"          = "New Posts";
+"feed.list.dialog.edit"             = "Edit Post";
+"feed.list.dialog.delete"           = "Delete";
+"feed.list.dialog.report"           = "Report";
+"feed.list.dialog.block"            = "Block";
+
+"feed.delete.alert.title"           = "Are you sure you want to delete this post?";
+"feed.delete.error.title"           = "Failed to delete the post.";
+
+"feed.block.alert.title"            = "Are you sure you want to block?";
+
+"create-feed.title"                 = "Create Post";
+"create-feed.sub"                   = "Share your interests";
+"create-feed.toggle.exclusive.title"    = "Exclusive?";
+"create-feed.toggle.comment.title"      = "Turn off commenting";
+"create-feed.button.post.title"         = "Share";
+"create-feed.button.preview.title"      = "Preview";
+"create-feed.post.success.message"      = "Your post has been sent successfully";
+"create-feed.description.empty.message" = "Your post content is empty.";
+
+"feed.list.like.failed.title"           = "Feed like failed";
+"feed.list.page.end"                    = "That's All Folks!";
+"feed.list.fetching"                    = "Fetching…";
+
+"feed.card.subscribe"                   = "Subscribe to this celebrity to view their exclusive content.";
+
+//MARK: - Events
+"event.list.picker.videoCall"           = "Video Calls";
+"event.list.picker.shows"               = "Shows";
+"event.list.empty.title"                = "No Events…";
+"event.list.empty.message"              = " ";
+"event.detail.start.videoCall"          = "START VIDEO CALL";
+"event.detail.join.videoCall"           = "JOIN VIDEO CALL";
+"event.detail.view.broadcast"           = "VIEW BROADCAST";
+"event.detail.bid.cannot.title"         = "NOT ABLE TO BID";
+"event.detail.ended.title"              = "EVENT ENDED";
+
+"event.bid.earn.coins.title"            = "How to Earn Silver Coins?";
+"event.bid.place.title"                 = "PLACE BID";
+
+//MARK: - Comment
+"comment.list.title"        = "Comments";
+"comment.list.empty.title"  = "No Comments…";
+"comment.list.empty.desc"   = " ";
+
+"comment.subscribe.title"           = "Comments are turned off";
+"comment.subscribe.message"         = "Subscribe to this star to comment on their post.";
+"comment.subscribe.button.title"    = "Subscribe Now";
+
+//MARK: - Celebrity
+"celebrity.list.title"                  = "Celebrities";
+"celebrity.list.trending.title"         = "Top Trending";
+"celebrity.list.recommended.title"      = "Recommended for you";
+"celebrity.list.empty.title"            = "No Celebrities";
+"celebrity.list.empty.description"      = " ";
+"celebrity.follow.title"                = "Follow";
+"celebrity.following.title"             = "Following";
+"celebrity.message"                     = "Message";
+"celebrity.subscribe"                   = "Subscribe";
+"celebrity.profile.fetch.loading"       = "Fetching…";
+"celebrity.profile.share.title"         = "Share Profile";
+
+//MARK: - Menu
+"menu.home"             = "Home";
+"menu.profile"          = "Profile";
+"menu.notifications"    = "Notifications";
+"menu.messages"         = "Messages";
+"menu.leaderboard"      = "Leaderboard";
+"menu.event.history"    = "My Event History";
+"menu.earnings"         = "Stargaze Earnings";
+"menu.settings"         = "Settings";
+"menu.logout"           = "Logout";
+
+//MARK: - Profile
+"profile.title"         = "Profile";
+"profile.edit"          = "Edit";
+"profile.phone"         = "Phone";
+"profile.email"         = "Email";
+"profile.coins.gold"    = "GOLD";
+"profile.coins.silver"  = "SILVER";
+"profile.followings"    = "FOLLOWING";
+"profile.videoCalls"    = "My Video Calls";
+"profile.polls"         = "Polls";
+"profile.shows"         = "Shows";
+"profile.wallet"        = "My Wallet";
+"profile.subscriptions" = "Subscriptions";
+"profile.header.posts"  = "MANAGE POSTS";
+"profile.header.subs"   = "MANAGE COINS & SUBSCRIPTIONS";
+"profile.fetch.title"   = "Fetching your profile";
+
+"profile.edit.title"    = "Edit Profile";
+"profile.edit.desc"     = " ";
+
+"profile.edit.name"     = "Name/Username";
+"profile.edit.bio"      = "Bio";
+"profile.edit.email"    = "Email Address";
+"profile.edit.number"   = "Phone Number";
+"profile.edit.save"     = "SAVE & UPDATE";
+
+"profile.edit.card.title"       = "Update Your Name";
+"profile.edit.card.field.title" = "Enter Name";
+"profile.edit.card.save"        = "UPDATE";
+
+"profile.edit.error.name"   = "Invalid/Empty Name";
+"profile.edit.error.bio"    = "Empty Bio";
+"profile.edit.error.number" = "Invalid/Empty Phone Number";
+"profile.edit.error.email"  = "Invalid/Empty Email Address";
+"profile.edit.submit.fail"  = "Failed to update your profile. Please try again later";
+"profile.edit.submit.pass"  = "Your changes have been saved successfully";
+"profile.edit.image.upload" = "Uploading Image…";
+"profile.edit.detail.upload"= "Saving changes…";
+"profile.edit.image.save.error" = "Failed to save the image.";
+"profile.edit.image.unknown"    = "Only png & jpeg images are supported";
+
+
+//MARK: - Leaderboard
+"leaderboard.title"             = "Leaderboard";
+"leaderboard.empty"             = "No records found";
+"leaderboard.option.all-time"   = "All Time";
+"leaderboard.option.today"      = "Today";
+"leaderboard.option.month"      = "Month";
+"leaderboard.me.title"          = "You";
+"leaderbard.user.list.title"    = "%@ Leaderboard";
+
+//MARK: - Video call
+"video-call.audio.only.title"           = "Audio Only";
+"video-call.network.poor.title"         = "Poor Connection";
+"video-call.network.poor.msg"           = "The video will resume automatically when the connection improves.";
+"video-call.celeb.video.pause.title"    = "Wait till the celebrity is back";
+"video-call.celeb.video.pause.msg"      = "Event is paused because the celebrity is on another call";
+"video-call.audio.mute.overlay.title"   = "You’re
+Microphone off";
+"video-call.video.mute.overlay.title"   = "You’re
+Camera off";
+
+
+//MARK: -
+"alert.button.yes.title"    = "Yes";
+"alert.button.no.title"     = "No";
+
+//MARK: - IAP
+"iap.list.empty.title"      = "No Records found";
+"iap.list.fetch.error.title"    = "Failed to fetch the records. Please try again later";
+
+//MARK: - Earn Coins
+"earn.coins.nav.title"      = "How to Earn Silver Coins?";
+
+"earn.coins.signup.desc"        = "A user will receive 100 coins once they sign up to the platform";
+"earn.coins.dailyLaunch.desc"   = "If a user launches the app and uses the app for 10 min daily he will receive 5 coins";
+"earn.coins.share.desc"         = "Every share in social media will fetch the user 20 coins";
+"earn.coins.comment.desc"       = "Each comment on feeds /Events fetch users 5 coins";
+"earn.coins.like.desc"          = "If a user likes 100 feeds on a period of 10 days will fetch the user 10 coins ( Once in 10 days )";
+
+//MARK: - Payment
+"payment.status.success.title" = "Payment Was Successful";
+"payment.status.failure.title" = "Payment Failed";
+"payment.status.process.title" = "Payment Processing";
+
+"payment.status.success.desc" = "It uses a dictionary of over Latin words, combined.";
+"payment.status.failure.desc" = "Oops, the system is currently experiencing technical difficulties.";
+"payment.status.process.desc" = "It uses a dictionary of over Latin words, combined.";
+
+"payment.tryagain.title"        = "TRY AGAIN";
+
+//MARK: - Subscription
+"subscription.list.title"           = "Subscription Plans";
+"subscription.app.unlock.title"     = "Unlock
+Complete App";
+"subscription.plan.choose.title"    = "Choose a plan";
+"subscription.premium.title"        = "Premium Subscription";
+"subscription.coins.title"          = "coins";
+"subscription.per.month.title"      = "/ month";
+
+//MARK: - Packages
+"package.list.title"                = "Select Package";
+"package.balance.title"             = "Available purchased coins:";
+"package.cancel.msg"                = "Cancel anytime";
+"package.select.title"              = "MAKE PAYMENT";
+"package.terms.title"               = "Terms & Conditions";
+"package.privacy.policy"            = "Privacy Policy";
+"package.low.balance.message"       = "Insufficient balance, Please add coins on your wallet to make a transaction";
+"package.buy.coins.title"           = "Purchase Coins";
+
+//MARK: - Subscriptions
+"subscription.list.empty.title"     = "No Subscriptions available";
+
+//MARK: - Buy Coins
+"buy.coins.title"                   = "Buy Purchase Coins";
+
+//MARK: - Video Call List
+"video-call.history.title"                      = "My Video Calls";
+"video-call.history.segment.active-event.title" = "Active Events";
+"video-call.history.segment.events.title"       = "Events";
+"video-call.history.segment.events.won.title"   = "Events Won";
+"video-call.history.empty.title"                = "No History..";
+"video-call.history.empty.events.title"         = "No Events..";
+"video-call.history.empty.won.events.title"     = "No Events Won..";
+"video-call.history.empty.all.events.title"     = "Event not joined..";
+"event-history.timeline.title"                  = "Video Calls History";
+
+//MARK: - Search
+"search.field.placeholder.text"                 = "Search";
+
+//MARK:- Report
+"report.title"                                  = "Report";
+"report.submit.title"                           = "REPORT";
+"report.option.abusive.title"                   = "Abusive Langauge";
+"report.option.behaviour.title"                 = "Inapropriate Behaviour";
+"report.option.not-listed.title"                = "Reason Not Listed";
+"report.submit.success.title"                   = "Your report has been submitted successfully";
+
+//MARK: - Active Subscription
+"active-subscription.nav.title"                 = "My Subscriptions";
+"active-subscription.next-date.title"           = "Next payment";
+"active-subscription.cycle.title"               = "Cycle";
+"active-subscription.duration.title"            = "Duration";
+"active-subscription.reminder.title"            = "Remind me";
+"active-subscription.cancel.title"              = "CANCEL SUBSCRIPTION";
+
+//MARK: - Settings
+"settings.title"                = "Settings";
+"settings.about-us.title"       = "About Stargaze";
+
+//MARK: - FAQ
+"faq.list.title"                = "FAQ";
+
+"faq.star-account.question"     = "How do I get started with Star account creation?";
+"faq.star-account.answer"       = "You need to get in touch with Stargaze admin, and they’ll create and account for you. After this, you can log into your star account.";
+
+"faq.account.logout.question"   = "How do I log out from my account?";
+"faq.account.logout.answer"     = "You have to click on the Settings which appear on the extreme right corner of the Stargaze app and then select the log out option.";
+
+"faq.event.create.question"     = "How can I create a fan event?";
+"faq.event.create.answer"       = "At first, you click on the home event icon that is placed on the left side of the app. Then you click on the create event button to get started. It will give you options to create a video/audio for the event or you can choose an existing content to upload. It will redirect you to a page where you have to name the event, write a short description about it, choose a feasible date and time, select the number of winners and minutes you wish to interact with them, and the option to allow fans to comment on the event. Finally, you have to click on the create event button once again to finish your task.";
+
+"faq.event.promote.question"    = "How to promote my events or shows on the application?";
+"faq.event.promote.answer"      = "Go to your active events tab and write something in the description box along with your promotional visual content and then hit on the send button to make it public and visible on your feed.";
+
+"faq.post-updates.question"     = "Can I post regular updates on my feed for fans to view?";
+"faq.post-updates.answer"       = "Yes, you can. Just go to your home events tab and create a post with a description and an audio/video content and hit on the send button.";
+
+"faq.event-detail.see.question" = "How do I see the event details that are over?";
+"faq.event-detail.see.answer"   = "At your home events tab there will be a list of events which you have created. To see the details of a particular event, you just click on it and then view the information. It will show you the date of your event, description, number of people who attended it, your earnings from that event, your promotional posts, and the winners.";
+
+"faq.report-caller.question"    = "How do I report a suspicious caller?";
+"faq.report-caller.answer"      = "At present, during a video call we offer you a report caller option which helps us to filter the user and then take actions against them to ensure safety.";
+
+"faq.earning.see.question"      = "Where can I see my earnings after an event?";
+"faq.earning.see.answer"        = "Well you can see it right away after the event gets over in our event history tab. Not only this, you will also be able to see the earnings which are pending from our end and the disputed ones. Pending amounts can be requested to clear by a click from you.
+Also, if you have not received a payment from us then that gets recorded under the disputed amount section. You can click on the amount and type your comments and hit the send button to help us look into the matter and get back as soon as possible.";
+
+"faq.notification.question"     = "Do I get notified before or after events or even when my posts gain popularity?";
+"faq.notification.answer"       = "Yes you do. We have a notifications tab on the right side of the app screen which sends you out notifications before or after events as well as when your feed posts gain momentum from your followers.";
+
+"faq.disallow-followers.question"   = "Is there any way that I can disallow followers from posting on my feed?";
+"faq.disallow-followers.answer"     = "You can ensure that by clicking on the settings and then pushing the slider button on the “Comments on post” option. That way no one will be able to post a comment on the content you upload.";
+
+"faq.follow-star.question"      = "How do I follow a star?";
+"faq.follow-star.answer"        = "Just click on the star icon and search for your favourite star and then click on the follow button once their profile shows up.";
+
+"faq.join-event.question"       = "How do I participate in an event or show organized by a star?";
+"faq.join-event.answer"         = "Whenever you follow a star you will start getting notifications of him/her hosting an event under the notification tab in the right side of your Stargaze screen. You can click on the event and it will redirect you to the description page and timings.
+
+After you have viewed these details you can simply click on the join button to express your interest. This will take you to a screen that asks you to type your name and mobile number. Once you have done that, you will be asked to authenticate your mobile number via an OTP and click on the “Verify and join now” button.";
+
+"faq.event-cost.question"       = "Are these events or shows chargeable?";
+"faq.event-cost.answer"         = "Yes, they are but we charge tickets to join them since they are exclusive to the Stargaze users. We offer monthly tickets for new users which they can use to join the first event, however, after your free ones are consumed, you have to purchase new ones from the subscription button.
+
+In light of unforeseen circumstances, such as cancellation of an event you joined, you will be offered wild tickets from Stargaze management.";
+
+"faq.celeb-call.question"       = "How do I get to interact with the star over a call?";
+"faq.celeb-call.answer"         = "If you win in these fan events, then you have a fair chance to talk to your favourite star on a video or audio call within a specific time frame.";
+
+"faq.ensure-event-win.question" = "Is there any way to ensure the chances of my win on these events?";
+"faq.ensure-event-win.answer"   = "Yes there is. You have to bid coins after you join a star hosted event and these coins can be purchased on the subscription tab. You need to choose one of the different coin packages and then offer your card details to finish the transaction.";
+
+"faq.free-coins.earn.question"  = "Can I earn free coins?";
+"faq.free-coins.earn.answer"    = "Yes you can earn free coins under the home events tab and choose the “Earn free coins” option. After that you will be asked to either watch a video or invite friends or share on other social networks or follow Stargaze on the other social media platforms.";
+
+"faq.purchased-coins.claim.question"    = "Where do I claim the coins I have purchased?";
+"faq.purchased-coins.claim.answer"      = "You can claim coins under the home events tab and choose the “Claim coins” option.";
+
+"faq.premium-account.question"  = "Is there any premium account option available on Stargaze?";
+"faq.premium-account.answer"    = "Yes you have an option to go premium on Stargaze by going to the subscription tab and selecting one of the packages for premium subscription listed on the screen. Fill in your payment information after that and get your premium account.";
+
+"faq.premium-account.benefits.question" = "What are the benefits of a premium user account?";
+"faq.premium-account.benefits.answer"   = "You get notifications on special star events/shows. You also will be able to use the filter option on your feed section to search specific stars.";
+
+"faq.event-won.notification.question"   = "How do I get notified after winning an event?";
+"faq.event-won.notification.answer"     = "You get notifications from the “My events” tab on the right side of the app screen. In the same screen you also get notifications of all the active events that you have joined.";
+
+"faq.celeb-content.react.question"      = "How do I react to the content posted by my favourite star?";
+"faq.celeb-content.react.answer"        = "On your star feed you will see the different kinds of content your favourite stars have posted. You can like, share them, or even comment on these pieces of content.";
+
+//MARK: - Notification Settings
+"notification-settings.title"       = "Notifcation Settings";
+"notification-settings.push"        = "Push Notifications";
+"notification-settings.push.on"     = "On";
+"notification-settings.push.off"    = "Off";
+"notification-settings.comments"    = "Comments";
+"notification-settings.videocall"   = "Video Calls & Shows Reminder";
+"notification-settings.events"      = "Events";
+"notification-settings.activities"  = "More Activities about you..";
+"notification-settings.subtitle"    = "Push notification, SMS";
+"notification-settings.section"     = "What Notifications you Receive";
+"notification-settings.save.title"  = "SAVE & UPDATE";
+"notification-settings.saved"       = "Notification settings updated.";
+
+//MARK: - Blocked List
+"blocked-list.title"        = "Blocked Accounts";
+"blocked-list.cta.title"    = "Unblock";
+"blocked-list.confirm.title"    = "Are you sure you want to unblock?";
+
+//MARK: - Wallet
+"wallet.list.title"     = "My Wallet";
+"wallet.tile.title"     = "Available balance";
+
+"wallet-detail.silver-coins.title"  = "Silver Coins";
+"wallet-detail.gold-coins.title"    = "Gold Coins";
+
+//MARK:- Login
+"login.title"               = "Login";
+"login.input.title"         = "Email address or Phone number";
+"login.placeholder.title"   = "Email address or phone number";
+"login.or.title"            = "OR";
+"login.google.title"        = "Sign in with Google";
+"login.apple.title"         = "Sign in with Apple";
+"login.facebook.title"      = "Sign in with Facebook";
+"login.create-account.text" = "Don’t you have an account?";
+"login.sign-up.title"       = "Sign up";
+"login.button.title"        = "LOGIN";
+
+
+"onboard.name.title"     = "Name";
+"onboard.email.title"    = "Email address";
+"onboard.number.title"   = "Phone Number";
+"onboard.dob.title"      = "Date of birth";
+//
+//"profile.edit.card.title"       = "Update Your Name";
+//"profile.edit.card.field.title" = "Enter Name";
+//"profile.edit.card.save"        = "UPDATE";
+
+//MARK: - Notifications
+"notifications.list.title"          = "Notifications";
+"notifications.list.empty.title"    = "No New Notifications..";
+
+//MARK: - Earnings
+"earnings.shows.title"              = "Shows";
+"earnings.video-call.title"         = "Video Calls";
+"earnings.post-pay.title"           = "Payper Post";
+"earnings.subscription.title"       = "Subscription";
+"earnings.tile.title"               = "Earning";
+"earnings.title"                    = "EARNINGS";
+"earnings.pending.title"            = "PENDING";
+"earnings.nav-bar.title"            = "Stargaze Earnings";
+"earnings.view.title"               = "View";
+"earnings.detail.title"             = "Earning Detail";
+"earnings.list.empty.title"         = "No Earnings Yet";

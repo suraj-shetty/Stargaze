@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>2495424933-1mqsp1tnbl5tsbfhqpu3l708o5je022h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.2495424933-1mqsp1tnbl5tsbfhqpu3l708o5je022h</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>2495424933-2vikfko8la7ndp57hcqhed21lk8lg83n.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCORqQhGubZ2Hq4kF_vClDiRaUPTEUildE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>2495424933</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.stargazeqa</string>
+	<key>PROJECT_ID</key>
+	<string>stargaze-5f064</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stargaze-5f064.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:2495424933:ios:82f73dcf938762d08d604c</string>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient cx="29.204%" cy="32.583%" fx="29.204%" fy="32.583%" r="93.196%" gradientTransform="matrix(.78092 .55114 -.62463 .68905 .268 -.06)" id="rww0w2wu4b">
+            <stop stop-color="#FFF" offset=".213%"/>
+            <stop stop-color="#A8A8A8" offset="100%"/>
+        </radialGradient>
+        <linearGradient x1="50%" y1="53.626%" x2="50%" y2="122.887%" id="dxefmpi5fa">
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="0%"/>
+            <stop stop-color="#D8D8D8" stop-opacity=".039" offset="3.96%"/>
+            <stop stop-color="#D8D8D8" stop-opacity=".467" offset="46.71%"/>
+            <stop stop-color="#D8D8D8" stop-opacity=".8" offset="80.16%"/>
+            <stop stop-color="#D8D8D8" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <path d="M24 12c0 6.628-5.372 12-12 12S0 18.628 0 12 5.372 0 12 0s12 5.372 12 12z" fill="#DBD8D0"/>
+        <path d="M0 12c0 4.214 2.244 7.91 5.62 10h12.76C21.755 19.91 24 16.214 24 12s-2.244-7.91-5.62-10H5.62C2.245 4.09 0 7.786 0 12z" fill="#D3CFCF"/>
+        <path d="M0 12c0 3.07 1.143 5.871 3.023 8h17.954A12.044 12.044 0 0 0 24 12c0-3.07-1.143-5.871-3.023-8H3.023A12.043 12.043 0 0 0 0 12z" fill="#C3C3C3"/>
+        <path d="M0 5c0 1.785.39 3.478 1.09 5h21.82A11.94 11.94 0 0 0 24 5c0-1.785-.39-3.478-1.09-5H1.09A11.94 11.94 0 0 0 0 5z" transform="translate(0 7)" fill="url(#dxefmpi5fa)"/>
+        <path d="M0 12c0 1.036.131 2.041.377 3h23.246c.246-.959.377-1.964.377-3s-.131-2.041-.377-3H.377A12.072 12.072 0 0 0 0 12z" fill="#AEAEAE"/>
+        <path d="M11 0C4.845.487 0 5.674 0 12s4.845 11.513 11 12c6.155-.487 11-5.674 11-12S17.155.487 11 0z" fill="#F7F7F7"/>
+        <path d="M11.615 1.042a4.489 4.489 0 0 0-1.23 0C5.085 1.776 1 6.402 1 12c0 5.597 4.085 10.224 9.385 10.958.408.056.822.056 1.23 0C16.915 22.224 21 17.598 21 12c0-5.597-4.085-10.224-9.385-10.958z" fill="#F7F7F7"/>
+        <path d="M19 12c0-4.97-3.582-9-8-9s-8 4.03-8 9 3.582 9 8 9 8-4.03 8-9z" fill="#C6C6C6"/>
+        <path d="M13.063 4.229a5.457 5.457 0 0 0-3.126 0C6.51 5.254 4 8.567 4 12.496c0 4.005 2.609 7.37 6.14 8.324.888.24 1.832.24 2.72 0C16.392 19.866 19 16.5 19 12.496c0-3.93-2.51-7.242-5.937-8.267z" fill="url(#rww0w2wu4b)"/>
+    </g>
+</svg>
